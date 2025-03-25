@@ -76,10 +76,11 @@ li a {
 
 .text > p {
   
-    top: 50%;
-    left: 30%;
+    position: absolute;
+    top: 45%; /* Adjusted to place it below the h1 */
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 1;
     color: rgb(250, 244, 244);
-    font-size: 4.17rem;
+    font-size: 2.17rem;
 }
