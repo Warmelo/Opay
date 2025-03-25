@@ -73,7 +73,7 @@ li a {
 
 .text > h1 {
     position: relative;
-    top: 75%; /* Adjusted from 70% to 75% to move it down */
+    top: 95%; /* Adjusted from 70% to 75% to move it down */
     left: 30%;
     transform: translate(-50%, -50%);
     z-index: 1;
