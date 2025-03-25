@@ -54,13 +54,25 @@ li a {
   */
 
 .text {
-    font-family: Roboto, sans-serif;
+    position: absolute;
+    top: 45%; /* Adjusted to place it below the h1 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(250, 244, 244);
+    font-size: 2.17rem;
 }
 
 .text > img {
+    /*height: 100%;
+    width: 100%;
+    position: absolute;*/
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Place the image behind the text */
     
 }
 
@@ -69,10 +81,12 @@ li a {
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-    z-index: 2;
     color: rgb(250, 244, 244);
+    z-index: 1; /* Place above the image */
     font-size: 4.17rem;
+    margin: 0; /* Remove default margin */
 }
+
 
 .text > p {
   
@@ -84,4 +98,7 @@ li a {
     color: rgb(250, 244, 244);
     font-size: 2.17rem;
     text-align: left;
+    font-size: 1.5rem;
+    margin-top: 20px; /* Add spacing below the h1 */
+    max-width: 80%;
 }
