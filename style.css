@@ -73,3 +73,13 @@ li a {
     color: rgb(250, 244, 244);
     font-size: 4.17rem;
 }
+
+.text > p {
+  
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: rgb(250, 244, 244);
+    font-size: 4.17rem;
+}
