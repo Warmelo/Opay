@@ -86,9 +86,9 @@ li a {
 
 .text > p {
     position: absolute;
-    top: 55%; /* Adjusted to place it below the h1 */
+   /* top: 55%; /* Adjusted to place it below the h1 */
     left: 2%;
-    justify-content: left;
+
     z-index: 1;
     color: rgb(250, 244, 244);
     font-size: 2.17rem;
