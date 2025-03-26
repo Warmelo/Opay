@@ -64,11 +64,11 @@ li a {
     font-family: Roboto, sans-serif;
     text-align: center;
     color: rgb(250, 244, 244);
-
+    position: relative; /* Ensure the .text container is positioned relative */
 }
 
 .text > img {
-    position: relative; /* Ensure the image stays in the flow */
+    position: absolute; /* Ensure the image is positioned absolutely */
     width: 100vw;
     height: 100vh; /* Make the image cover the full viewport height */
     object-fit: cover;
@@ -84,10 +84,22 @@ li a {
     left: 20%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust for perfect centering */
     z-index: 1; /* Ensure it appears above the image */
-    color: rgb(250, 244, 244); /* Ensure text is visible */
+    /*color: rgb(250, 244, 244);*/ /* Ensure text is visible */
     font-size: 2.6rem; /* Adjust font size as needed */
 }
 
+.paragraph {
+    color: rgb(14, 0, 0); /* Ensure the text is visible */
+    font-size: 2rem; /* Adjust font size for readability */
+    line-height: 1.6; /* Improve readability with line spacing */
+    margin: 20px auto; /* Add spacing around the paragraph */
+    max-width: 80%; /* Limit the width for better readability */
+    text-align: left; /* Align text to the left */
+    z-index: 1; /* Ensure it appears above the background image */
+    position: relative; /* Ensure the paragraph stays in the flow */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background for better visibility */
+    padding: 10px; /* Add padding for spacing */
+}
 
 /*
     transform: translate(-50%, -50%);
