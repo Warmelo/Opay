@@ -82,7 +82,7 @@ li a {
     position: absolute; /* Position the h1 on top of the image */
     top: 5%; /* Center vertically */
     left: 20%; /* Center horizontally */
-    bottom: 60%;
+    bottom: 30%;
     transform: translate(-50%, -50%); /* Adjust for perfect centering */
     z-index: 1; /* Ensure it appears above the image */
     /*color: rgb(250, 244, 244);*/ /* Ensure text is visible */
