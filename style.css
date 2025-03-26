@@ -112,6 +112,7 @@ li a {
 .tex {
     /* Ensure .tex is positioned below .text */
     position: relative;
+    width: 100Vw;
     background-color: rgb(176, 243, 42);
     padding: 20px; /* Add padding for spacing */
     display: flex; /* Use flexbox for layout */
@@ -119,7 +120,7 @@ li a {
     align-items: center; /* Vertically align items */
     justify-content: flex-start; /* Align text to the left and image to the right */
     gap: 20px; /* Add spacing between the text and image */
-    margin-top: 5%; /* Ensure no overlap by removing unnecessary top margin */
+    margin-top: ; /* Ensure no overlap by removing unnecessary top margin */
 }
 
 .para {
