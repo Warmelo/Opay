@@ -69,19 +69,21 @@ li a {
 }
 
 .text > img {
-    position: absolute;
+    position: fixed; /* Change from absolute to fixed */
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
-    z-index: 0;
-    object-fit: cover;
+    z-index: -1; /* Ensure it stays behind other content */
+    object-fit: contain; /* Ensure the image fits within its container without cropping */
+    padding-top: 50px; /* Add padding to create space above the image */
+    padding-bottom: 50px; /* Add padding to create space below the image */
 }
 
 .text > h1 {
     position: relative;
     top: 50px; /* Adjusted from 70% to 75% to move it down */
-    left: 30%;
+    left: 40%;
     bottom: 20px;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -93,18 +95,21 @@ li a {
 
 
 .text > p {
-    position: absolute;
-    top: 75%;   /* top: 55%; /* Adjusted to place it below the h1 */
-    left: 2%;
-    padding: 0;
-    margin: 0;
+    position: relative; /* Change from absolute to relative */
+    top: 0; /* Remove the top positioning */
+    left: 0px; /* Remove the left positioning */
+    padding: 30px;
+    margin: 20px auto; /* Add margin for spacing */
     z-index: 1;
+    text-align: left; /* Align text to the left */
     color: rgb(250, 244, 244);
-    font-size: 1.17rem;
+    font-size: 1.1rem;
     font-size: 1.5rem;
     line-height: 1.6; /* Improve readability with line spacing */
-    max-width: 50%; /* Optional: Limit paragraph width for better readability */
-    margin: 0 auto;
+    max-width: 80%; /* Adjust width to prevent overflow */
+    margin-left: 20px; /* Add left margin for alignment */
+    margin-right: 20px; /* Optional: Add right margin for symmetry */
+
 }
 
 footer{
@@ -115,7 +120,9 @@ footer{
     color: black;
     width: 100vw;
     height: 100px;
-    margin-top: auto; /* Push the footer to the bottom */
+    position: relative; /* Ensure footer stays in the normal flow */
+    margin-top: 20px; /* Add spacing between the content and footer */
+ /* Push the footer to the bottom */
 }
 
 /*
