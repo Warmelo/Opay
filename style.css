@@ -62,14 +62,31 @@ li a {
 
 .text {
     font-family: Roboto, sans-serif;
-    position: relative;
     text-align: center;
     color: rgb(250, 244, 244);
-    padding: 50px;
+
 }
 
+.text > img {
+    position: relative; /* Ensure the image stays in the flow */
+    width: 100vw;
+    height: 100vh; /* Make the image cover the full viewport height */
+    object-fit: cover;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keep the image behind other content */
+}
 
-
+.text > h1 {
+    position: absolute; /* Position the h1 on top of the image */
+    top: 50%; /* Center vertically */
+    left: 20%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    z-index: 1; /* Ensure it appears above the image */
+    color: rgb(250, 244, 244); /* Ensure text is visible */
+    font-size: 2.6rem; /* Adjust font size as needed */
+}
 
 
 /*
