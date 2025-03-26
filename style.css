@@ -80,8 +80,9 @@ li a {
 
 .text > h1 {
     position: absolute; /* Position the h1 on top of the image */
-    top: 50%; /* Center vertically */
+    top: 5%; /* Center vertically */
     left: 20%; /* Center horizontally */
+    bottom: 60%;
     transform: translate(-50%, -50%); /* Adjust for perfect centering */
     z-index: 1; /* Ensure it appears above the image */
     /*color: rgb(250, 244, 244);*/ /* Ensure text is visible */
@@ -91,9 +92,10 @@ li a {
 .paragraph {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.7rem; /* Adjust font size for readability */
-    line-height: 1.4; /* Improve readability with line spacing */
-    margin: 10px auto; /* Add spacing around the paragraph */
-    max-width: 60%; /* Limit the width for better readability */
+    line-height: 1.6; /* Improve readability with line spacing */
+    margin: 20px auto; /* Add spacing around the paragraph */
+    max-width: 80%; /* Limit the width for better readability */
+    margin-top: 50%;
     text-align: left; /* Align text to the left */
     z-index: 1; /* Ensure it appears above the background image */
     position: relative; /* Ensure the paragraph stays in the flow */
