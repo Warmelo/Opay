@@ -26,7 +26,8 @@ body {
     gap: 10px;
     justify-content:left;
     font-family: Roboto, sans-serif;
-    flex: 1; /* Allow the container to grow and push the footer down */
+    flex: unset; /* Remove the flex-grow behavior */
+    margin-bottom: 10px; /* Add a controlled margin for spacing */
 }
 
 p{
@@ -48,7 +49,7 @@ li a {
     margin-top: 20px;
     text-align: center;
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 /*
@@ -65,6 +66,7 @@ li a {
     text-align: center;
     color: rgb(250, 244, 244);
     position: relative; /* Ensure the .text container is positioned relative */
+    margin-bottom: 50px; /* Add spacing below the .text section */
 }
 
 .text > img {
@@ -79,29 +81,68 @@ li a {
 }
 
 .text > h1 {
-    position: absolute; /* Position the h1 on top of the image */
-    top: 5%; /* Center vertically */
-    left: 20%; /* Center horizontally */
-    bottom: 30%;
-    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    position: relative; /* Change to relative to keep it in the flow */
+    top: 10%; /* Remove absolute positioning */
+    left: 0; /* Remove horizontal centering */
+    transform: none; /* Remove centering transform */
     z-index: 1; /* Ensure it appears above the image */
-    /*color: rgb(250, 244, 244);*/ /* Ensure text is visible */
-    font-size: 2.6rem; /* Adjust font size as needed */
+    color: white; /* Ensure text is visible */
+    font-size: 3rem; /* Adjust font size for better visibility */
+    margin-bottom: 20px; /* Add spacing below the h1 */
+    text-align: left; /* Align the text to the left */
+    margin-left: 20px; /* Add left margin for spacing */
 }
 
 .paragraph {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.7rem; /* Adjust font size for readability */
-    line-height: 1.6; /* Improve readability with line spacing */
+    top: 10%;
+    color: white; /* Ensure text is visible */
+    font-size: 1.23em; /* Adjust font size for readability */
+    line-height: 1.6; /* Adjust line spacing for better readability */
     margin: 20px auto; /* Add spacing around the paragraph */
-    max-width: 80%; /* Limit the width for better readability */
-    margin-top: 50%;
-    text-align: left; /* Align text to the left */
+    max-width: 60%; /* Reduce the width for better readability */
+    margin-top: 0; /* Remove extra margin to avoid unnecessary spacing */
+    text-align: left; /* Change from justify to left alignment */
+    margin-left: 20px; /* Add left margin for spacing */
+    margin-right: 20px; /* Optional: Add right margin for symmetry */
     z-index: 1; /* Ensure it appears above the background image */
-    position: relative; /* Ensure the paragraph stays in the flow */
- /* Optional: Add a semi-transparent background for better visibility */
-    padding: 10px; /* Add padding for spacing */
+    position: relative; /* Ensure it stays in the flow */
+    padding: 15px; /* Add padding for spacing */
 }
 
-/*
-    transform: translate(-50%, -50%);
+.tex {
+    /* Ensure .tex is positioned below .text */
+    position: relative;
+    background-color: rgb(176, 243, 42);
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align children horizontally */
+    align-items: center; /* Vertically align items */
+    justify-content: flex-start; /* Align text to the left and image to the right */
+    gap: 20px; /* Add spacing between the text and image */
+}
+
+.para {
+    /* Ensure the paragraph stays unaffected by the image */
+    font: 500 1.3em Roboto, sans-serif;
+    margin: 20px auto; /* Center the paragraph */
+    max-width: 70%; /* Limit the width for better readability */
+    text-align: justify;
+    flex: 1; /* Allow the text to take up remaining space */
+    text-align: left; /* Align text to the left */
+}
+
+#service {
+    /* Ensure the image is positioned to the right */
+    height: auto; /* Allow the image to resize dynamically */
+    max-width: 40%; /* Limit the image width to 40% of the container */
+    margin-left: auto; /* Push the image to the right */
+}
+
+#services{
+    flex: 1; /* Allow the text to take up remaining space */
+    font: 400 1.5em Roboto, sans-serif;
+    color: black;
+    text-align: left;
+    margin: 0; /* Remove unnecessary margins */
+    text-align: left; /* Align text to the left */
+}
