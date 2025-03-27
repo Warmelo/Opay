@@ -132,7 +132,7 @@ li a {
 
 .service {
     background-color: rgba(43, 226, 250, 1);
-    overflow: hidden; /* Prevent content overflow */
+    overflow: visible; /* Ensure no content is clipped */
     padding: 20px; /* Add padding for spacing */
     margin-top: 20px; /* Add spacing between sections */
     display: flex; /* Use flexbox for layout */
@@ -140,6 +140,8 @@ li a {
     gap: 20px; /* Add spacing between child elements */
     position: relative; /* Ensure it stays in the flow */
     z-index: 1; /* Ensure it appears above background elements */
+    align-items: flex-start; /* Align items to the top */
+    min-height: auto; /* Allow the height to adjust dynamically */
 }
 
 .service > h1{
@@ -158,11 +160,14 @@ li a {
     text-align: left;
     word-spacing: 0.5px;
     font-size: 25px;
-    max-width: 60%;
+    max-width: 100%; /* Allow it to take full width if needed */
     margin-top: 20px; /* Reduce margin to avoid excessive spacing */
     position: relative; /* Ensure it stays in the flow */
     z-index: 2; /* Ensure it appears above other elements */
     padding: 15px; /* Add padding for spacing */
+    overflow: visible; /* Ensure content is not clipped */
+    display: block; /* Ensure it is displayed as a block element */
+    visibility: visible; /* Ensure it is not hidden */
 }
 
 .service > img{
