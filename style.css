@@ -128,7 +128,7 @@ li a {
 
 .service{
     background-color: rgba(43, 226, 250, 1);
-    
+    overflow: hidden; /* Ensure the container wraps around floated elements */
 }
 
 .service > h1{
@@ -164,5 +164,6 @@ li a {
     max-width: 500px;
     padding-left: 5%;
     padding-right: 5%;
-    
+    margin-right: 20%;
+  margin-top: 20px; /* Add spacing above the image */
 }
