@@ -128,7 +128,7 @@ li a {
 
 .service{
     background-color: rgba(43, 226, 250, 1);
-    overflow: hidden; /* Ensure the container wraps around floated elements */
+    
 }
 
 .service > h1{
@@ -138,9 +138,7 @@ li a {
     margin: 10px;
     text-align: left;
     font-weight: 600;
-    max-width: 50%;
-    clear: both; /* Ensure the h1 does not overlap the floated image */
-    margin-top: 20px; /* Optional: Add spacing above the h1 */
+    max-width: 80%;
     
 }
 
@@ -149,21 +147,19 @@ li a {
     text-align: left;
     word-spacing: 0.5px;
     font-size: 25px;
-    max-width: 40%;
+    max-width: 60%;
     margin-top: 50px; /* Adjust the value as needed to move it down */
-    overflow: hidden; /* Ensure the paragraph wraps properly around the floated image */
     
 }
 
 .service > img{
     max-width: 60%;
     border-radius: 5px;
-    float: right; /* Float the image to the right */
-    margin-left: 20px; /* Add spacing between the image and the paragraph */
-    margin-bottom: 20px; /* Optional: Add spacing below the image */
+    display: inline;
+    margin-left: 50px;
     max-width: 500px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-right: 20%;
-  margin-top: 20px; /* Add spacing above the image */
+    margin-left: 50%;
+    bottom: 0;
 }
