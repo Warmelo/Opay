@@ -28,7 +28,7 @@ body {
     font-family: Roboto, sans-serif;
     flex: unset; /* Remove the flex-grow behavior */
     margin-bottom: 10px; /* Add a controlled margin for spacing */
-    border: 5px solid black;
+
 }
 
 p{
@@ -68,6 +68,7 @@ li a {
     color: rgb(250, 244, 244);
     position: relative; /* Ensure the .text container is positioned relative */
     margin-bottom: 100px; /* Increase spacing below the .text section */
+    border: 5px solid black;
 }
 
 .text > img {
