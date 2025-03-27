@@ -28,6 +28,7 @@ body {
     font-family: Roboto, sans-serif;
     flex: unset; /* Remove the flex-grow behavior */
     margin-bottom: 10px; /* Add a controlled margin for spacing */
+    border: 5px solid black;
 }
 
 p{
