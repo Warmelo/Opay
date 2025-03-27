@@ -115,20 +115,31 @@ li a {
 }
 
 #services {
-    margin-top: 20px; /* Add spacing above the #services heading */
-    text-align: left; /* Optional: Center the heading */
-    font-size: 2rem; /* Optional: Adjust font size for better visibility */
-    color: black; /* Optional: Ensure the text color contrasts with the background */
+    padding-top: 20%;
+    text-align: left;
+    font-size: 2rem;
+    color: black;
     padding-left: 10%;
     padding-bottom: 5%;
     font-size: 4vw;
     font-weight: 600;
+    position: relative; /* Ensure it stays in the flow */
+    z-index: 1; /* Ensure it appears above background elements */
+    clear: both; /* Prevent overlapping with floated elements */
+    
 
 }
 
-.service{
+.service {
     background-color: rgba(43, 226, 250, 1);
-    
+    overflow: hidden; /* Prevent content overflow */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 20px; /* Add spacing between sections */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow content to wrap if necessary */
+    gap: 20px; /* Add spacing between child elements */
+    position: relative; /* Ensure it stays in the flow */
+    z-index: 1; /* Ensure it appears above background elements */
 }
 
 .service > h1{
@@ -148,18 +159,21 @@ li a {
     word-spacing: 0.5px;
     font-size: 25px;
     max-width: 60%;
-    margin-top: 50px; /* Adjust the value as needed to move it down */
-    
+    margin-top: 20px; /* Reduce margin to avoid excessive spacing */
+    position: relative; /* Ensure it stays in the flow */
+    z-index: 2; /* Ensure it appears above other elements */
+    padding: 15px; /* Add padding for spacing */
 }
 
 .service > img{
     max-width: 60%;
     border-radius: 5px;
-    display: inline;
-    margin-left: 50px;
+    display: block; /* Change to block to avoid inline layout issues */
+    margin: 20px auto; /* Center the image and add spacing */
     max-width: 500px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 50%;
     bottom: 0;
+    z-index: 1; /* Ensure it stays below the .para */
+    position: relative; /* Ensure it stays in the flow */
 }
