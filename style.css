@@ -68,7 +68,7 @@ li a {
     color: rgb(250, 244, 244);
     position: relative; /* Ensure the .text container is positioned relative */
     margin-bottom: 100px; /* Increase spacing below the .text section */
-    border: 5px solid black;
+
 }
 
 .text > img {
@@ -80,6 +80,7 @@ li a {
     top: 0;
     left: 0;
     z-index: -1; /* Keep the image behind other content */
+    border: 5px solid black;
 }
 
 .text > h1 {
