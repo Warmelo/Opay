@@ -142,7 +142,7 @@ li a {
     position: relative; /* Ensure it stays in the flow */
     z-index: 1; /* Ensure it appears above background elements */
     align-items: flex-start; /* Align items to the top */
-    min-height: auto; /* Allow the height to adjust dynamically */
+    min-height: 1000px; /* Allow the height to adjust dynamically */
 }
 
 .service > h1{
@@ -157,11 +157,12 @@ li a {
 }
 
 .para{
+    text-align: justify;
+
     color: white;
-    text-align: left;
     word-spacing: 0.5px;
     font-size: 25px;
-    max-width: 100%; /* Allow it to take full width if needed */
+    max-width: 60%; /* Allow it to take full width if needed */
     margin-top: 20px; /* Reduce margin to avoid excessive spacing */
     position: relative; /* Ensure it stays in the flow */
     z-index: 2; /* Ensure it appears above other elements */
