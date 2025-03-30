@@ -119,8 +119,9 @@ li a {
     text-align: left;
     font-size: 2rem;
     color: black;
+    margin-top: 3%;
     padding-left: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
     font-size: 4vw;
     font-weight: 600;
     position: relative; /* Ensure it stays in the flow */
