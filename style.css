@@ -173,7 +173,7 @@ li a {
 
 .service > img{
     max-width: 60%;
-    border-radius: 10%;
+    border-radius: 20%;
     display: block; /* Change to block to avoid inline layout issues */
     margin: 20px auto; /* Center the image and add spacing */
     max-width: 500px;
