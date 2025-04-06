@@ -6,7 +6,8 @@ html, body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
+    width: 100%; /* Ensure the body spans the full width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 *{ 
@@ -30,7 +31,7 @@ body {
     font-family: Roboto, sans-serif;
     flex: unset; /* Remove the flex-grow behavior */
     margin-bottom: 10px; /* Add a controlled margin for spacing */
-
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
 }
 
 p{
@@ -142,7 +143,7 @@ li a {
     position: relative; /* Ensure it stays in the flow */
     z-index: 1; /* Ensure it appears above background elements */
     align-items: flex-start; /* Align items to the top */
-    min-height: 1000px; /* Allow the height to adjust dynamically */
+    min-height: auto; /* Correct the typo from "t1eight" to "auto" */
 }
 
 .service > h1{
@@ -157,8 +158,7 @@ li a {
 }
 
 .para{
-    text-align: justify;
-
+    word-spacing: 0.5px;
     color: white;
     word-spacing: 0.5px;
     font-size: 25px;
