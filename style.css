@@ -182,23 +182,40 @@ li a {
     padding-right: 5%;
     bottom: 0;
     z-index: 1; /* Ensure it stays below the .para */
-    position: relative; /* Ensure it stays in the flow */
+    /*position: relative;*/ /* Ensure it stays in the flow */
     border: 2px solid red;
     border-radius: 0;
     
     
-
 }
 
 #parah{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: row;
+    justify-content: space-between; /* Ensure proper spacing between items */
+    align-items: center; /* Vertically align items */
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    width: 100%; /* Ensure the container spans the full width */
+}
 
+#parah > img {
+    width: 30%; /* Reduce the size of the image */
+    max-width: 150px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 #parah > div {
-    width: 45%;
+    width: 100px;
     border-radius: 50%;
-    
+    flex-grow: 1; /* Allow the text container to take up remaining space */
+    text-align: right; /* Align text inside the container to the right */
+    padding-left: 10px; /* Add spacing between the image and text */
+    max-width: 70%; /* Ensure the text container doesn't exceed available space */
+}
+
+#parah > div{
+    left: 0;
+    top: 20px;
 }
