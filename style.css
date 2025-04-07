@@ -189,30 +189,47 @@ li a {
     
 }
 
-#parah{
+#parah {
     display: flex;
-    gap: 5px;
+    gap: 15px; /* Adjust spacing between the image and text */
     flex-direction: row;
-    justify-content: space-between; /* Ensure proper spacing between items */
+    justify-content: flex-start; /* Align items to the start */
     align-items: center; /* Vertically align items */
-    flex-wrap: nowrap; /* Prevent items from wrapping */
+    flex-wrap: nowrap; /* Prevent wrapping for better alignment */
     width: 100%; /* Ensure the container spans the full width */
+    border: 2px solid red;
+    min-height: auto; /* Allow the height to adjust dynamically */
+    height: auto; /* Ensure the container adjusts to its content */
+    padding: 10px; /* Add padding to create more space inside the container */
+    box-sizing: border-box; /* Ensure padding is included in the container's dimensions */
+    overflow: visible; /* Ensure no content is clipped */
 }
 
 #parah > img {
-    width: 30%; /* Reduce the size of the image */
-    max-width: 150px; /* Set a maximum width for the image */
-    height: auto; /* Maintain aspect ratio */
+    min-width: 40%; /* Set a fixed width for the image */
+/* Set a fixed width for the image */
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image fits within the dimensions */
     flex-shrink: 0; /* Prevent the image from shrinking */
+    border-radius: 80%; /* Keep the image circular */
+    max-width: none; /* Remove any constraints on width */
+    max-height: none; /* Remove any constraints on height */
+    right: 20px;
+    padding-right: 30px;
+    padding-left: 0;
+    height: auto; /* Allow the height to adjust proportionally */
+    margin: 0; /* Remove unnecessary margins */
 }
 
 #parah > div {
-    width: 100px;
-    border-radius: 50%;
     flex-grow: 1; /* Allow the text container to take up remaining space */
-    text-align: right; /* Align text inside the container to the right */
-    padding-left: 10px; /* Add spacing between the image and text */
-    max-width: 70%; /* Ensure the text container doesn't exceed available space */
+    text-align: left; /* Align text to the left */
+    padding: 0; /* Remove unnecessary padding */
+    max-width: calc(100% - 170px); /* Ensure the text fits beside the image */
+    font-size: 1rem; /* Set a normal font size */
+    line-height: 1.5; /* Adjust line height for readability */
+    border-radius: 50%;
+    overflow: visible; /* Ensure no text is clipped */
 }
 
 #parah > div{
