@@ -132,107 +132,34 @@ li a {
 
 }
 
-.service {
-    background-color: rgba(43, 226, 250, 1);
-    overflow: visible; /* Ensure no content is clipped */
-    padding: 20px; /* Add padding for spacing */
-    margin-top: 20px; /* Add spacing between sections */
-    display: flex; /* Use flexbox for layout */
-    flex-wrap: wrap; /* Allow content to wrap if necessary */
-    gap: 20px; /* Add spacing between child elements */
-    position: relative; /* Ensure it stays in the flow */
-    z-index: 1; /* Ensure it appears above background elements */
-    align-items: flex-start; /* Align items to the top */
-    min-height: auto; /* Correct the typo from "t1eight" to "auto" */
+.service{
+    background-color: rgb(29, 201, 155);
+    height: 100%;
+    width: 100%;
+}
+
+.parah{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.parah > div > img {
+    width: 30%; /* Ensure this width takes precedence */
+    height: 20%; /* Ensure this height takes precedence */
 }
 
 .service > h1{
     color: white;
-    font-size: 2.5rem;
-    padding: 10px;
-    margin: 10px;
+    font: 1.5rem;
     text-align: left;
-    font-weight: 600;
-    max-width: 50%;
-    
-}
-
-.para{
-    word-spacing: 0.5px;
-    color: white;
-    word-spacing: 0.5px;
-    font-size: 25px;
-    max-width: 60%; /* Allow it to take full width if needed */
-    margin-top: 20px; /* Reduce margin to avoid excessive spacing */
-    position: relative; /* Ensure it stays in the flow */
-    z-index: 2; /* Ensure it appears above other elements */
-    padding: 15px; /* Add padding for spacing */
-    overflow: visible; /* Ensure content is not clipped */
-    display: block; /* Ensure it is displayed as a block element */
-    visibility: visible; /* Ensure it is not hidden */
-}
-
-.service > img{
-    max-width: 60%;
-    border-radius: 20%;
-    display: block; /* Change to block to avoid inline layout issues */
-    margin: 20px auto; /* Center the image and add spacing */
-    max-width: 500px;
-    padding-left: 5%;
-    padding-right: 5%;
-    bottom: 0;
-    z-index: 1; /* Ensure it stays below the .para */
-    /*position: relative;*/ /* Ensure it stays in the flow */
-    border: 2px solid red;
-    border-radius: 0;
-    
-    
-}
-
-#parah {
-    display: flex;
-    gap: 15px; /* Adjust spacing between the image and text */
-    flex-direction: row;
-    justify-content: flex-start; /* Align items to the start */
-    align-items: center; /* Vertically align items */
-    flex-wrap: nowrap; /* Prevent wrapping for better alignment */
-    width: 100%; /* Ensure the container spans the full width */
-    border: 2px solid red;
-    min-height: auto; /* Allow the height to adjust dynamically */
-    height: auto; /* Ensure the container adjusts to its content */
-    padding: 10px; /* Add padding to create more space inside the container */
-    box-sizing: border-box; /* Ensure padding is included in the container's dimensions */
-    overflow: visible; /* Ensure no content is clipped */
-}
-
-#parah > img {
-    min-width: 40%; /* Set a fixed width for the image */
-/* Set a fixed width for the image */
-    height: 150px; /* Set a fixed height for the image */
-    object-fit: cover; /* Ensure the image fits within the dimensions */
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    border-radius: 80%; /* Keep the image circular */
-    max-width: none; /* Remove any constraints on width */
-    max-height: none; /* Remove any constraints on height */
-    right: 20px;
-    padding-right: 30px;
-    padding-left: 0;
-    height: auto; /* Allow the height to adjust proportionally */
-    margin: 0; /* Remove unnecessary margins */
-}
-
-#parah > div {
-    flex-grow: 1; /* Allow the text container to take up remaining space */
-    text-align: left; /* Align text to the left */
-    padding: 0; /* Remove unnecessary padding */
-    max-width: calc(100% - 170px); /* Ensure the text fits beside the image */
-    font-size: 1rem; /* Set a normal font size */
-    line-height: 1.5; /* Adjust line height for readability */
-    border-radius: 50%;
-    overflow: visible; /* Ensure no text is clipped */
-}
-
-#parah > div{
-    left: 0;
     top: 20px;
+    max-width: 550px;
+}
+.para{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    top: 10px;
+    max-width: 530px;
 }
