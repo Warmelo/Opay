@@ -134,8 +134,9 @@ li a {
 
 .service{
     background-color: rgb(29, 201, 155);
-    height: 800px;
+    height: 100%;
     width: 100%;
+    display: flex;
 }
 
 .parah{
@@ -158,12 +159,16 @@ li a {
     color: white;
     font-size: 20px;
     text-align: justify;
-    top: 10px;
+    top: 60%;
     max-width: 35%;
-    flex: 1;
+
 
 }
 
 .serimg{
-    align-self: center;
+    max-width: 10%;
+}
+
+.para > h1{
+    word-spacing: 0.5px;
 }
