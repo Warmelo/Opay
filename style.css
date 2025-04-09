@@ -145,8 +145,8 @@ li a {
 }
 
 .parah > div > img {
-    width: 30%; /* Ensure this width takes precedence */
-    height: 20%; /* Ensure this height takes precedence */
+    width: 10%; /* Ensure this width takes precedence */
+    height: 15%; /* Ensure this height takes precedence */
 }
 
 .service > h1{
@@ -156,10 +156,16 @@ li a {
     top: 20px;
     max-width: 550px;
 }
-.para{
+.parah > .para{
     color: white;
     font-size: 1.2rem;
     text-align: justify;
     top: 10px;
-    max-width: 530px;
+    max-width: 60%;
+    flex: 1;
+}
+
+.serimg{
+    padding-left: 20px;
+    padding-right: 20px;
 }
