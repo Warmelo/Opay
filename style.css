@@ -118,7 +118,7 @@ li a {
 #services {
     padding-top: 10%;
     text-align: left;
-    font-size: 2rem;
+    font-size: 3rem;
     color: black;
     margin-top: 3%;
     padding-left: 10%;
@@ -137,8 +137,9 @@ li a {
     height: 100%;
     width: 100%;
     display: flex;
+    align-items: center;
 }
-
+/*
 .parah{
     display: flex;
     gap: 10px;
@@ -146,7 +147,7 @@ li a {
 
 }
 
-
+*/
 
 .service > h1{
     color: white;
@@ -165,10 +166,15 @@ li a {
 
 }
 
-.serimg{
-    max-width: 10%;
+.serimg > img{
+    max-width: 80%;
+    margin-left: 40%;
+    
 }
 
 .para > h1{
     word-spacing: 0.5px;
-}
+    margin-top: 20px;
+   
+
+}    
