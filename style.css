@@ -179,11 +179,12 @@ li a {
 
 }    
 
-.para > p{
-    
-    word-spacing: -0.9px; /* Use a negative value to reduce word spacing further */
+.para > p {
+    text-align: left; /* Align text to the left */
+    hyphens: auto; /* Enable word breaking to avoid large gaps */
+    word-spacing: 0; /* Reset word spacing to default */
     margin-top: 20px;
-    line-height: 1.2;
+    line-height: 1.5; /* Adjust line height for readability */
     color: white;
     font-size: 1.5rem;
 }
