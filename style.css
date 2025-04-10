@@ -133,7 +133,7 @@ li a {
 }
 
 .service{
-    background-color: rgb(29, 201, 155);
+    background-color: /*rgb(29, 201, 155) or =>*/ #1DC99B;
     height: 100%;
     width: 100%;
     display: flex;
@@ -187,4 +187,53 @@ li a {
     line-height: 1.5; /* Adjust line height for readability */
     color: white;
     font-size: 1.53rem;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+/* irrelevant code removed for brevity 
+.caraimg{
+    height: auto; /* Allow the height to adjust based on the image 
+    width: 100%; /* Ensure the container spans the full width 
+    display: flex; /* Center the image 
+    justify-content: center;
+    align-items: center;
+    background: none; /* Ensure no background is applied 
+}
+*/
+.caraimg > img {
+    max-width: 550px; /* Ensure the image scales within the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits without distortion */
+    margin-top: 20%;
+    margin-left: 10%;
+    align-self: center;
+}
+
+.cara > h1, p{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.cara > p{
+    color: rgb(33, 15, 96);
+    font-size: 25px;
+    text-align: left;/* Align text to the left */
+    hyphens: auto; /* Enable word breaking to avoid large gaps */
+    word-spacing: 0.5px; /* Reset word spacing to default */
+    margin-top: 20px;
+    line-height: 1.5; /* Adjust line height for readability */
+    max-width: 85%;
+    height: 40%;
+}
+
+.cara > h1{
+    color: #1DC99B; 
+    
 }
