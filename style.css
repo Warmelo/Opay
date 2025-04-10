@@ -180,9 +180,9 @@ li a {
 }    
 
 .para > p {
-    text-align: left; /* Align text to the left */
+    text-align: justify; /* Align text to the left */
     hyphens: auto; /* Enable word breaking to avoid large gaps */
-    word-spacing: 0; /* Reset word spacing to default */
+    word-spacing: 0.2px; /* Reset word spacing to default */
     margin-top: 20px;
     line-height: 1.5; /* Adjust line height for readability */
     color: white;
