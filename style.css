@@ -159,7 +159,7 @@ li a {
 .para{
     color: white;
     font-size: 20px;
-    text-align: justify;
+    
     top: 60%;
     max-width: 35%;
 
@@ -176,5 +176,13 @@ li a {
     word-spacing: 0.5px;
     margin-top: 20px;
    
-
 }    
+
+.para > p{
+    text-align: justify;
+    word-spacing: -0.9px; /* Use a negative value to reduce word spacing further */
+    margin-top: 20px;
+    max-width: 70%;
+    line-height: 1.2;
+    color: white;
+}
