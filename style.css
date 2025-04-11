@@ -19,6 +19,7 @@ html, body {
 
 body {
     min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    font-family: Roboto, sans-serif;;
 }
 
 .container{
@@ -162,7 +163,7 @@ li a {
 .para{
     color: white;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 60px;
     top: 60%;
     max-width: 40%;
     margin-left: 40px;
@@ -185,7 +186,7 @@ li a {
     object-fit: contain; /* Ensure the image fits without distortion */
     margin: 0; /* Reset all margins */
     align-self: center; /* Ensure the image aligns in the center */
-    transform: translateY(-150px); /* Move the image up by 20px */
+    transform: translateY(-195px); /* Move the image up by 20px */
     position: relative; /* Ensure it stays within the flow */
     margin-top: -90px; /* Alternatively, adjust the margin to move it up */
     margin-left: 50%;
@@ -194,8 +195,9 @@ li a {
 .para > h1{
     word-spacing: 0.5px;
     margin-top: 0;
+    line-height: 3.47vw;
     margin-left: 20px;
-    font-size: 2rem;
+    font-size: 2.78vw;
 }    
 
 .para > p {
@@ -205,7 +207,8 @@ li a {
     margin-top: 20px;
     line-height: 2.43vw; /* Adjust line height for readability */
     color: white;
-    font-size: 1.56vw;
+    font-size: 1.90vw;
+    font-weight: 200;
 }
 
 .cards{
