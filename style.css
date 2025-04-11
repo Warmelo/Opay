@@ -208,10 +208,10 @@ li a {
 }
 */
 .caraimg > img {
-    max-width: 550px; /* Ensure the image scales within the container */
+    max-width: 500px; /* Ensure the image scales within the container */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure the image fits without distortion */
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 10%;
     align-self: center;
 }
