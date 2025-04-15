@@ -268,3 +268,30 @@ li a {
 .cara > div{
     margin-top: 13%;
 }
+
+.serva{
+    background-color: #1DC99B;
+    height: 80%;
+    display: flex;
+}
+.servaimg > img{
+    width: 90%;
+    height: auto;
+    border-radius: 3%;
+    margin-top: 10%;
+}
+
+.serva{
+  margin-top: 5%;
+}
+
+.serva > p{
+    margin-top: 10%;
+    margin-right: 40%;
+    margin-left: 0;
+
+}
+
+.serva > h1{
+    margin-left: 5%;
+}
