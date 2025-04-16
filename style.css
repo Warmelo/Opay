@@ -279,15 +279,7 @@ li a {
     margin-bottom: 0;
     
 }
-.servaimg{
-height:; /* Ensure the container adjusts based on content */
-width:; /* Ensure it spans the full width*/
-/*display: flex;  Use flexbox for centering */
-/*justify-content: center;  Center horizontally */
-/*align-items: center;  Center vertically */
-/*position: relative;  Ensure proper positioning */
-margin-bottom: 0;
-}
+
 
 .servaa{
   margin-top: 9%;
