@@ -294,6 +294,16 @@ position: relative; /* Ensure proper positioning */
   margin-bottom: 0;
 }
 
+.servaimg{
+    
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+
 .servaimg > img{
     max-width: 40%; /* Ensure the image scales within the container */
     max-height: 500px; /* Limit the height for better control */
@@ -327,4 +337,26 @@ position: relative; /* Ensure proper positioning */
     line-height: 3.47vw;
     margin-left: 20px;
     font-size: 2.78vw;
+}
+
+footer{
+    background-color: rgb(210, 245, 236);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    height: 100%;
+}
+
+footer > h1{
+    top: 1px;
+    font-size: 2rem;
+    align-self: center;
+}
+footer > p{
+    margin-left: 10%;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(33, 15, 96);
+    line-height: 1.3vw;
 }
