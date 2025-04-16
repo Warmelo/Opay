@@ -276,15 +276,16 @@ li a {
     gap: 10px;
     background-color: #1DC99B;
 }
+/*
 .servaimg{
-height: auto; /* Ensure the container adjusts based on content */
-width: 100%; /* Ensure it spans the full width*/
-display: flex; /* Use flexbox for centering */
-justify-content: center; /* Center horizontally */
-align-items: center; /* Center vertically */
-position: relative; /* Ensure proper positioning */
+height: auto; /* Ensure the container adjusts based on content 
+width: 100%; /* Ensure it spans the full width
+display: flex; /* Use flexbox for centering 
+justify-content: center; /* Center horizontally 
+align-items: center; /* Center vertically 
+position: relative; /* Ensure proper positioning 
 }
-
+*/
 .servaa{
   margin-top: 9%;
   margin-bottom: 0;
