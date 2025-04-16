@@ -33,6 +33,7 @@ body {
     flex: unset; /* Remove the flex-grow behavior */
     margin-bottom: 10px; /* Add a controlled margin for spacing */
     flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+
 }
 
 p{
@@ -275,17 +276,19 @@ li a {
     display: flex;
     gap: 10px;
     background-color: #1DC99B;
+    margin-bottom: 0;
+    
 }
-/*
 .servaimg{
-height: auto; /* Ensure the container adjusts based on content 
-width: 100%; /* Ensure it spans the full width
-display: flex; /* Use flexbox for centering 
-justify-content: center; /* Center horizontally 
-align-items: center; /* Center vertically 
-position: relative; /* Ensure proper positioning 
+height:; /* Ensure the container adjusts based on content */
+width:; /* Ensure it spans the full width*/
+/*display: flex;  Use flexbox for centering */
+/*justify-content: center;  Center horizontally */
+/*align-items: center;  Center vertically */
+/*position: relative;  Ensure proper positioning */
+margin-bottom: 0;
 }
-*/
+
 .servaa{
   margin-top: 9%;
   margin-bottom: 0;
@@ -333,7 +336,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 
 footer > h1{
