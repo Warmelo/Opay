@@ -133,10 +133,10 @@ li a {
     
 
 }
-
+/*
 .service{
 
-}
+}*/
 .servic{
     background-color: /*rgb(29, 201, 155) or =>*/ #1DC99B;
     height: 80%;
@@ -270,7 +270,7 @@ li a {
 }
 
 .serv{
-    height: 100%;
+    height: 75%;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -285,23 +285,9 @@ align-items: center; /* Center vertically */
 position: relative; /* Ensure proper positioning */
 }
 
-.serimg > img{
-
-}
-
 .servaa{
   margin-top: 9%;
   margin-bottom: 0;
-}
-
-.servaimg{
-    
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
 }
 
 .servaimg > img{
@@ -311,11 +297,11 @@ position: relative; /* Ensure proper positioning */
     object-fit: contain; /* Ensure the image fits without distortion */
     margin: 0; /* Reset all margins */
     align-self: center; /* Ensure the image aligns in the center */
-    transform: translateY(-350px); /* Move the image up by 20px */
+    transform: translateY(-400px); /* Move the image up by 20px */
     position: relative; /* Ensure it stays within the flow */
     margin-top: 90px; /* Alternatively, adjust the margin to move it up */
     margin-left: 50%;
-     border-radius: 5px;
+     border-radius: 10px;
      margin-bottom: 0;
 }
 
@@ -344,7 +330,9 @@ footer{
     display: flex;
     gap: 10px;
     justify-content: center;
-    height: 100%;
+    align-items: center;
+    width: 100%;
+    height: 200px;
 }
 
 footer > h1{
