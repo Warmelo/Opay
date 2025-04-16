@@ -269,29 +269,62 @@ li a {
     margin-top: 13%;
 }
 
-.serva{
-    background-color: #1DC99B;
-    height: 80%;
+.serv{
+    height: 100%;
+    width: 100%;
     display: flex;
+    gap: 10px;
+    background-color: #1DC99B;
 }
+.servaimg{
+height: auto; /* Ensure the container adjusts based on content */
+width: 100%; /* Ensure it spans the full width*/
+display: flex; /* Use flexbox for centering */
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+position: relative; /* Ensure proper positioning */
+}
+
+.serimg > img{
+
+}
+
+.servaa{
+  margin-top: 9%;
+  margin-bottom: 0;
+}
+
 .servaimg > img{
-    width: 90%;
-    height: auto;
-    border-radius: 3%;
-    margin-top: 10%;
+    max-width: 40%; /* Ensure the image scales within the container */
+    max-height: 500px; /* Limit the height for better control */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits without distortion */
+    margin: 0; /* Reset all margins */
+    align-self: center; /* Ensure the image aligns in the center */
+    transform: translateY(-350px); /* Move the image up by 20px */
+    position: relative; /* Ensure it stays within the flow */
+    margin-top: 90px; /* Alternatively, adjust the margin to move it up */
+    margin-left: 50%;
+     border-radius: 5px;
+     margin-bottom: 0;
 }
 
-.serva{
-  margin-top: 5%;
+.servaa > p{
+    text-align: left; /* Align text to the left */
+    hyphens: auto; /* Enable word breaking to avoid large gaps */
+    word-spacing: 0.9px; /* Reset word spacing to default */
+    margin-top: 20px;
+    line-height: 2.43vw; /* Adjust line height for readability */
+    color: white;
+    font-size: 1.90vw;
+    font-weight: 200;
+    max-width: 40%
 }
 
-.serva > p{
-    margin-top: 10%;
-    margin-right: 40%;
-    margin-left: 0;
-
-}
-
-.serva > h1{
-    margin-left: 5%;
+.servaa > h1{
+    word-spacing: 0.5px;
+    margin-top: 0;
+    line-height: 3.47vw;
+    margin-left: 20px;
+    font-size: 2.78vw;
 }
