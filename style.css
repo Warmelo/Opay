@@ -344,18 +344,18 @@ footer{
 footer > h1{
     top: 1px;
     font-size: 2rem;
-    margin-right: 45%;
+    margin-right: 40%;
 
 }
 footer > p{
-    margin-right: 30%;
+    margin-right: 10%;
     box-sizing: border-box;
-    margin: 0px;
     min-width: 0px;
     color: rgb(33, 15, 96);
     line-height: 1.3vw;
     font-size: 20px;
     font-weight: 100;
+    margin-left: 0;
 }
 
 .contanner{
