@@ -338,22 +338,24 @@ footer{
     gap: 10px;
     justify-content: center;
     padding: 30px;
+    font-family: roboto, sans-serif;
 }
 
 footer > h1{
     top: 1px;
     font-size: 2rem;
-    align-self: left;
+    margin-right: 45%;
+
 }
 footer > p{
-    margin-left: 10%;
+    margin-right: 30%;
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     color: rgb(33, 15, 96);
     line-height: 1.3vw;
     font-size: 20px;
-    
+    font-weight: 100;
 }
 
 .contanner{
