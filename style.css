@@ -73,7 +73,7 @@ li a {
     text-align: center;
     color: rgb(250, 244, 244);
     position: relative; /* Ensure the .text container is positioned relative */
-    margin-bottom: 150px; /* Increase spacing below the .text section */
+    margin-bottom: 0px; /* Increase spacing below the .text section */
 
 }
 
@@ -404,4 +404,51 @@ footer > p{
     text-decoration: none;
     color: white;
     font-weight: 400;
+}
+
+.testing{
+   display: grid;
+   grid-template-rows: 100px 100px 100px 100px 100px ;
+   grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.features{
+  margin-top: 20px;
+  padding: 60px;
+}
+
+.fat-1{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    font-family: Basis Grotesque Pro, Basis Grotesque, Helvetica, Arial, sans-serif, Roboto, system-ui, -apple-system, Segoe UI, Noto Sans, Liberation Sans, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+} 
+
+.feet-1 > h1{
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #210f60;
+
+}
+
+.feet-1 > p{
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+.feet-2 > h1{
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #210f60;
+    margin-left: 30px;
+}
+
+.feet-2 > p{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 30px;
 }
