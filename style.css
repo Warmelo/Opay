@@ -459,7 +459,7 @@ footer > p{
     gap: 50px;
     flex-direction: row;
     font-family: Basis Grotesque Pro, Basis Grotesque, Helvetica, Arial, sans-serif, Roboto, system-ui, -apple-system, Segoe UI, Noto Sans, Liberation Sans, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-
+    margin-top: 30px;
 }
 
 .feet-3 > h1{
