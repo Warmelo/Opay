@@ -413,7 +413,7 @@ footer > p{
 }
 
 .features{
-  margin-top: 100px;
+  margin-top: 120px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -486,4 +486,52 @@ footer > p{
     font-size: 1.2rem;
     text-align: left;
     margin-left: 30px;
+}
+
+.contaiiner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.comg{
+    display: flex;
+    justify-content: center;;
+    padding: 70px;
+    
+}
+
+.comg > img{
+    margin-left: 50px;
+}
+
+.coomg{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.coomg > img{
+    margin-bottom: 10%;
+    margin-left: 60px;
+    width: 10%;
+}
+
+.coomg > p{
+    margin-left: 5%;
+    color: #210f60;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+
+.contaiiner > h1{
+    font-size: 4rem;
+    margin-left: 20%;
+    max-width: 60rem;
+    line-height: 1.5;
+}
+
+.contaiiner > h1 > span{
+    color: #1DC99B;
 }
