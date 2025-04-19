@@ -73,7 +73,7 @@ li a {
     text-align: center;
     color: rgb(250, 244, 244);
     position: relative; /* Ensure the .text container is positioned relative */
-    margin-bottom: 0px; /* Increase spacing below the .text section */
+    margin-bottom: 45px; /* Increase spacing below the .text section */
 
 }
 
