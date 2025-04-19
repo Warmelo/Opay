@@ -503,7 +503,10 @@ footer > p{
 }
 
 .comg > img{
-    margin-left: 50px;
+    margin-left: 40px;
+    height: 150px;
+    padding: 1px;
+    width: 150px;
 }
 
 .coomg{
@@ -514,8 +517,9 @@ footer > p{
 
 .coomg > img{
     margin-bottom: 10%;
-    margin-left: 60px;
-    width: 10%;
+    margin-left: 45px;
+    width: 12%;
+    padding: 15px;
 }
 
 .coomg > p{
@@ -523,6 +527,7 @@ footer > p{
     color: #210f60;
     font-size: 19px;
     font-family: sans-serif;
+    padding-top: 10px;
 }
 
 
@@ -535,4 +540,60 @@ footer > p{
 
 .contaiiner > h1 > span{
     color: #1DC99B;
+}
+
+.comment{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.joshua{
+    background-color: #F8F8FA;
+    padding-top: 20px;
+}
+
+.joshua > h1{
+    font-size: 1.9rem;
+    margin-left: 20px;
+}
+
+.joshua > p{
+    font-size: 1rem;
+    text-align: left;
+    
+}
+
+.ifeanyi{
+    background-color: #F8F8FA;
+    padding-top: 20px;
+}
+
+.ifeanyi > h1{
+    font-size: 1.9rem;
+    margin-left: 20px;
+}
+
+.ifeanyi > p{
+    font-size: 1rem;
+    text-align: left;
+
+}
+
+.ibrahim{
+    background-color: #F8F8FA;
+    padding-top: 20px;
+}
+
+.ibrahim > h1{
+    font-size: 1.9rem;
+    margin-left: 20px;
+}
+
+.ibrahim > p{
+    font-size: 1rem;
+    text-align: left;
+
 }
