@@ -497,7 +497,8 @@ footer > p{
 .comg{
     display: flex;
     justify-content: center;;
-    padding: 70px;
+    padding: 10px;
+    margin-bottom: 30px;
     
 }
 
@@ -508,7 +509,7 @@ footer > p{
 .coomg{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    
 }
 
 .coomg > img{
