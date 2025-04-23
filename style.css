@@ -547,14 +547,16 @@ footer > p{
 .comment{
     display: flex;
     gap: 40px;
-    padding: 20px;
-    margin-left: 50px;
+    padding-left: 70px;
+    margin-left: 120px;
     margin-right: 50px;
+    padding-right: 70px;
 }
 
 .joshua{
     background-color: #efeff3;
     padding-top: 20px;
+    
 }
 
 .joshua > h1{
@@ -569,13 +571,14 @@ footer > p{
     padding-right: 0px;
     font-weight: 100;
     max-width: 200px;
+    margin-right: 30px;
     
 }
 
 .ifeanyi{
     background-color: #efeff3;
     padding-top: 20px;
-    width: 40%;
+    width: 25%;
 }
 
 .ifeanyi > h1{
@@ -595,12 +598,14 @@ footer > p{
 .ibrahim{
     background-color: #efeff3;
     padding-top: 20px;
+    width: 30%;
 }
 
 .ibrahim > h1{
     font-size: 1.3rem;
     margin-left: 20px;
     font-weight: 600;
+    width: 26px;
 }
 
 .ibrahim > p{
@@ -609,6 +614,7 @@ footer > p{
     padding-right: 0px;
     font-weight: 100;
     max-width: 250px;
+    
     
 }
 
