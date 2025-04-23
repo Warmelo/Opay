@@ -8,6 +8,7 @@ html, body {
     flex-direction: column;
     width: 100%; /* Ensure the body spans the full width */
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-family: Basis Grotesque Pro, Basis Grotesque, Helvetica, Arial, sans-serif, Roboto, system-ui, -apple-system, Segoe UI, Noto Sans, Liberation Sans, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
 
 *{ 
@@ -492,6 +493,7 @@ footer > p{
     display: flex;
     flex-direction: column;
     margin-top: 200px;
+    
 }
 
 .comg{
@@ -544,7 +546,7 @@ footer > p{
 
 .comment{
     display: flex;
-    gap: 10px;
+    gap: 40px;
     padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -556,30 +558,38 @@ footer > p{
 }
 
 .joshua > h1{
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     margin-left: 20px;
+    font-weight: 600;
 }
 
 .joshua > p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
+    padding-right: 0px;
+    font-weight: 100;
+    max-width: 200px;
     
 }
 
 .ifeanyi{
     background-color: #efeff3;
     padding-top: 20px;
+    width: 40%;
 }
 
 .ifeanyi > h1{
-    font-size: 1.9rem;
-    margin-left: 20px;
+    font-size: 1.3rem;
+    margin-left: 5px;
+    font-weight: 600;
 }
 
 .ifeanyi > p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
-
+    padding-right: 0px;
+    font-weight: 100;
+    max-width: 200px;
 }
 
 .ibrahim{
@@ -588,12 +598,68 @@ footer > p{
 }
 
 .ibrahim > h1{
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     margin-left: 20px;
+    font-weight: 600;
 }
 
 .ibrahim > p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: left;
+    padding-right: 0px;
+    font-weight: 100;
+    max-width: 250px;
+    
+}
 
+.join{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.join > .buttom{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: #1DC99B;
+    height: 90%;
+    color: white;
+    width: 400px;
+    border-radius: 4rem;
+    padding: 2%;
+    
+}
+
+.buttom > a{
+    margin-left: 43px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40.1px;
+    box-shadow:#210f60;
+}
+
+
+/*
+.button{
+    margin-top: 8%;
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+    padding: 20px;
+    background-color: #1DC99B;
+    width: 300px;
+    border-radius: 4rem;
+}
+
+.button > a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
 }
