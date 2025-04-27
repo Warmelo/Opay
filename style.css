@@ -583,7 +583,7 @@ footer > p{
 
 .ifeanyi > h1{
     font-size: 1.3rem;
-    margin-left: 5px;
+    margin-left: 20px;
     font-weight: 600;
 }
 
@@ -637,8 +637,6 @@ footer > p{
     color: white;
     width: 400px;
     border-radius: 4rem;
-    padding: 2%;
-    
 }
 
 .buttom > a{
@@ -669,3 +667,38 @@ footer > p{
     color: white;
     font-weight: 400;
 }
+
+*/
+
+.end{
+    background-color: #210f60;
+}
+
+.footer-logo > img{
+    width: 30%;
+    
+}
+
+.texfoot {
+    margin-left: 0; /* Reset margin to align properly */
+    text-align: center; /* Center align the footer content */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.texnav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    gap: 20px; /* Add spacing between items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.texnav > li > a {
+    font-size: 1.1rem;
+    text-align: center; /* Center align the text */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Ensure the text is visible */
+}
+
+
